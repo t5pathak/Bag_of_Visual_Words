@@ -30,4 +30,4 @@ With an increase in number of visual words, the accuracy increases. The accuracy
 - ```dataset``` contains all a simplified version of SUN dataset.
  
 # Running the code
-1.Run the code while maintaining the directory structure.
+1. Run the code while maintaining the directory structure.
