@@ -9,9 +9,9 @@ The general idea of bag of visual words (BOVW) is to represent an image as a set
 1. Built a vocabulary of visual words by sampling local features from the training set and then clustering them with kmeans.
 2. Computed dense-SIFT features on the images.
 3. Represented the training and testing images as histograms of visual words by counting how many SIFT descriptors fall into each cluster in our visual word vocabulary.
-4. Normalized the histogram so that image size does not dramatically change the bag of feature magnitude
-5. Performed classification by training one-vs-all linear SVMs using sklearn
-6. Ploted the confusion matrix without and with normalization to estimate the performance of the model.
+4. Normalized the histogram so that image size does not dramatically change the bag of feature magnitude.
+5. Performed classification by training one-vs-all linear SVMs using sklearn.
+6. Plotted the confusion matrix without and with normalization to estimate the performance of the model.
 
 # Results - Accuracy Scores
 
